@@ -75,7 +75,7 @@ export default {
   setup () {
     const $q = useQuasar()
     const id = ref("0863222911")
-    const name = ref("Sittinon")
+    const name = ref("สิธินนท์")
     const surname = ref("-")
     const languge = ref ("ภาษาไทย")
     const age = ref(null)
@@ -108,6 +108,7 @@ export default {
       },
 
       onReset () {
+        id.value = null
         name.value = null
         surname.value = null
         languge.value = null
